@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would say that a semantic tag is used for making sense of elements. They are words used to describe what you are implementing on a webpage. It gives meaning to an element on a page, a name and an identity. Thus going into parent-children relationships later. They are used to mark-up the html in a document.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Displaying in block means that the element will take up it's own block. It will create it's own space and anything that was next to it will be moved down the page. An inline element works the same, yet opposite. It allows the element to stay where it is at, but doesn't move elements down the page. It sits inline like a span or an anchor tag. These are the two differences in both elements.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the the box-model are content, padding, border and finally margin, starting with conbtent outward. It's like having a box, the stuff isnide is the content. The bubble wrap we all love popping (except insane people) is the apdding. The padding cushions the content on the inside, so we can add more or even take away. The border is the box itself, or rather the outline of it. On a webpage it is invisible, but we can always make it appear with the border property in CSS. The margin is the outside of the box, which there can be an endless amount of if styled to do that.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items property will shift things on the cross axis, or vertical for a better phrasing. Justify-content does the opposite and shifts things horizontally. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable because it can allow multiple devlopers to work on the same project at the same time. Let's say there's a team of 3 developers and each are given a task different from the other. One is given the home page, another the about page and the last the contact page. They will all be able to merge there files together into a single folder giving them a finalized project. It's also usefull for saving your palce in a document just in case you make any errors. Making errors is normal, and shouldn't be frowned upon, so having git be able to take us back before the mess up is a huge time saver. If we didn't have git, imagine having to restart all over again over a simple mistake.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
