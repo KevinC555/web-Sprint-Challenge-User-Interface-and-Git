@@ -179,24 +179,97 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin: 30px auto;
-	border-top: 1px dashed black;
+	border-top: 2px dashed black;
 	padding: 40px 0;
 }
 
 .container-about-middle {
 	display: flex;
 	justify-content: space-between;
-	margin: 30px auto;
+	margin: -55px auto;
 	border-top: 1px dashed gray;
 	padding: 40px 0;
 }
 
 .container-about-bottom {
-	margin: 30px auto;
-	border-top: 1px dashed black;
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	border-top: 2px dashed black;
 	padding: 40px 0;
 }
 
 .text-container-about {
 	margin: 20px auto;
+	padding: 40px 0;
+}
+
+.container-about-image {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px;
+	padding: 20px 0;
+}
+
+/* Link tag for all containers About */
+
+.learn-more {
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin: 25px 0;
+	padding: 10px 0;
+	text-align: center;
+	width: 35%;
+	background-color:
+}
+
+/* Universal Styles */
+
+h2 {
+	margin: 10px 0;
+	text-emphasis-style: bold;
+}
+
+/* Html page boxes */
+
+#box-1 {
+	background-color: teal;
+}
+
+#box-2 {
+	background-color: gold;
+}
+
+#box-3 {
+	background-color: cadetblue;
+}
+
+#box-4 {
+	background-color: coral;
+}
+
+#box-5 {
+	background-color: crimson;
+}
+
+#box-6 {
+	background-color: forestgreen;
+}
+
+#box-7 {
+	background-color: darkorchid;
+}
+
+#box-8 {
+	background-color: hotpink;
+}
+
+#box-9 {
+	background-color: indigo;
+}
+
+#box-10 {
+	background-color: dodgerblue;
 }
