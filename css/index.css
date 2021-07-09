@@ -150,10 +150,11 @@ footer nav a {
 
 header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: baseline;
-	margin: 30px 30px;
+	margin: 30px auto;
 	padding: 20px 20px;
+	width: 50%;
 }
 
 /* Navbar */
@@ -169,4 +170,33 @@ header {
 .navbar a {
 	text-decoration: none;
 	color: black;
+}
+
+/* About-container Styling*/
+
+.container-about-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px auto;
+	border-top: 1px dashed black;
+	padding: 40px 0;
+}
+
+.container-about-middle {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto;
+	border-top: 1px dashed gray;
+	padding: 40px 0;
+}
+
+.container-about-bottom {
+	margin: 30px auto;
+	border-top: 1px dashed black;
+	padding: 40px 0;
+}
+
+.text-container-about {
+	margin: 20px auto;
 }
