@@ -146,3 +146,27 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Header */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 30px 30px;
+	padding: 20px 20px;
+}
+
+/* Navbar */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0 40px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
